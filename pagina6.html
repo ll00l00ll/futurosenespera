@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo Canvas</title>
+    <link rel="stylesheet" href="sisnonono.css">
+</head>
+<body>
+    <header>
+        <h1>Modelo Canvas</h1>
+    </header>
+    
+    <section class="content">
+        <img src="modelo canva.png" alt="" >
+    </section>
+    
+    <footer>
+        <p>Contacto: futurosESP@gmail.com</p>
+        <p>Redes Sociales: 
+            <a href="https://www.facebook.com/profile.php?id=61566923033586" target="_blank">Facebook</a> | 
+            <a href="https://www.instagram.com/futuros_en_espera?igsh=cHU5NGU1YnQzZHEz" target="_blank">Instagram</a> | 
+        </p>
+    </footer>
+    
+    <nav class="menu" id="menu">
+        <button id="menu-toggle">☰</button> 
+        <div class="menu-header" id="menu-header">
+            <h2>Menú</h2>
+        </div>
+        
+        <ul>
+            <li><a href="pagina1.html" target="_blank">Problematica</a></li>
+            <li><a href="pagina2.html" target="_blank">Ruta de investigacion</a></li>
+            <li><a href="pagina3.html" target="_blank">Producto</a></li>
+            <li><a href="pagina4.html" target="_blank">Usuarios</a></li>
+            <li><a href="pagina5.html" target="_blank">Datos</a></li>
+            <li><a href="pagina6.html" target="_blank">modelo canvas</a></li>
+            <li><a href="pagina7.html" target="_blank">folleto</a></li>
+        </ul>
+    </nav>
+    
+    <script>
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+            const menu = document.getElementById('menu');
+            menu.classList.toggle('collapsed');
+        });
+    </script>
+</body>
+</html>

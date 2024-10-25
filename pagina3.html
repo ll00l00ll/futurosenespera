@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podcast - Problemática</title>
+    <link rel="stylesheet" href="nonononsisi.css">
+</head>
+<body>
+    <header>
+        <h1>Producto</h1>
+    </header>
+    
+    <section class="content">
+        <h2>introduccion</h2>
+        <div class="podcast-container">
+            <img src="logoooo.png" alt="Cover del Podcast" class="podcast-cover">
+            <div class="podcast-info">
+                <h3>Título del Podcast</h3>
+                <p>Descripción breve del episodio o serie.</p>
+                <audio controls>
+                    <source src="introduccion.mp3" type="audio/mpeg">
+                    Tu navegador no soporta el elemento de audio.
+                </audio>
+            </div>
+        </div>
+    </section>
+    <section class="content">
+        <h2>Estudiante</h2>
+        <div class="podcast-container">
+            <img src="logoooo.png" alt="Cover del Podcast" class="podcast-cover">
+            <div class="podcast-info">
+                <h3>Título del Podcast</h3>
+                <p>Descripción breve del episodio o serie.</p>
+                <audio controls>
+                    <source src="estudiante.mp3" type="audio/mpeg">
+                    Tu navegador no soporta el elemento de audio.
+                </audio>
+            </div>
+        </div>
+    </section>
+
+    <section class="content">
+        <h2> Estudiante Egresado</h2>
+        <div class="podcast-container">
+            <img src="logoooo.png" alt="Cover del Podcast" class="podcast-cover">
+            <div class="podcast-info">
+                <h3>Título del Podcast</h3>
+                <p>Descripción breve del episodio o serie.</p>
+                <audio controls>
+                    <source src="egresado.mp3" type="audio/mpeg">
+                    Tu navegador no soporta el elemento de audio.
+                </audio>
+            </div>
+        </div>
+    </section>
+
+    <section class="content">
+        <h2>Profesora</h2>
+        <div class="podcast-container">
+            <img src="logoooo.png" alt="Cover del Podcast" class="podcast-cover">
+            <div class="podcast-info">
+                <h3>Título del Podcast</h3>
+                <p>Descripción breve del episodio o serie.</p>
+                <audio controls>
+                    <source src="profesora.mp3" type="audio/mpeg">
+                    Tu navegador no soporta el elemento de audio.
+                </audio>
+            </div>
+        </div>
+    </section>
+   
+
+    <footer>
+        <p>Contacto: futurosESP@gmail.com</p>
+        <p>Redes Sociales: 
+            <a href="https://www.facebook.com/profile.php?id=61566923033586" target="_blank">Facebook</a> | 
+            <a href="https://www.instagram.com/futuros_en_espera?igsh=cHU5NGU1YnQzZHEz" target="_blank">Instagram</a> | 
+        </p>
+    </footer>
+    
+    <nav class="menu" id="menu">
+        <button id="menu-toggle">☰</button> 
+        <div class="menu-header" id="menu-header">
+            <h2>Menú</h2>
+        </div>
+        
+        <ul>
+            <li><a href="pagina1.html" target="_blank">Problematica</a></li>
+            <li><a href="pagina2.html" target="_blank">Ruta de investigacion</a></li>
+            <li><a href="pagina3.html" target="_blank">Producto</a></li>
+            <li><a href="pagina4.html" target="_blank">Usuarios</a></li>
+            <li><a href="pagina5.html" target="_blank">Datos</a></li>
+            <li><a href="pagina6.html" target="_blank">modelo canvas</a></li>
+            <li><a href="pagina7.html" target="_blank">folleto</a></li>
+        </ul>
+    </nav>
+    
+    <script>
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+            const menu = document.getElementById('menu');
+            menu.classList.toggle('collapsed');
+        });
+    </script>
+</body>
+</html>
